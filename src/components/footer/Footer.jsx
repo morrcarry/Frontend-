@@ -23,8 +23,12 @@ const Footer = () => {
         </div>
 
         <div className="footer-image">
-          <h3 className="star-rating">⭐⭐⭐⭐</h3>
-          <span className="footer-icon-text">500+ Reviews</span>
+          <div>
+            <h3 className="star-rating">⭐⭐⭐⭐</h3>
+          </div>
+          <div>
+            <span className="footer-icon-text">500+ Reviews</span>
+          </div>
         </div>
         <div className="footer-images">
           <div className="footer-image-item">Google</div>
@@ -91,11 +95,12 @@ const Footer = () => {
               <p>1467 Janani HSR Layout Bengaluru</p>
               <p>Karnataka 560102</p>
             </div>
-          </div>
-          <div>
-            <h3 className="footer-heading-office">London Office</h3>
-            <p>79 - 81 Borough Rd</p>
-            <p>London England 400706</p>
+
+            <div>
+              <h3 className="footer-heading-office">London Office</h3>
+              <p>79 - 81 Borough Rd</p>
+              <p>London England 400706</p>
+            </div>
           </div>
         </div>
       </div>

@@ -11,13 +11,15 @@ const Navbar = () => {
         <div className="navbar-logo">
           <img src={logo} alt="Logo" />
         </div>
-        <ul className="navbar-items">
-          <li className="navbar-item">Products</li>
-          <li className="navbar-item">Solution</li>
-          <li className="navbar-item">Pricing</li>
-          <li className="navbar-item">Resource</li>
-          <li className="navbar-item">Support</li>
-        </ul>
+        <div>
+          <ul className="navbar-items">
+            <li className="navbar-item">Products</li>
+            <li className="navbar-item">Solution</li>
+            <li className="navbar-item">Pricing</li>
+            <li className="navbar-item">Resource</li>
+            <li className="navbar-item">Support</li>
+          </ul>
+        </div>
 
         <div className="navbar-buttons">
           <button className="navbar-signin">
