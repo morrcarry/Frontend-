@@ -102,12 +102,19 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 50%;
-    height: 50%;
+    height: 80%;
   }
   .login-page {
     width: 100%;
   }
   .login-form {
     width: 90%;
+  }
+  .white-box-heading {
+    font-size: 15px;
+    width: auto;
+  }
+  .white-box-para {
+    font-size: 10px;
   }
 }
