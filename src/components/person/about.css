@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,600&display=swap");
+
+.about-container {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: "Montserrat", sans-serif;
+
+  background-color: #f2f2f2;
+}
+
+.people-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.person-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+/* Person details styles */
+.person-about {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.person-img-container {
+  margin-right: 20px;
+}
+
+.person-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.person-details {
+  text-align: center;
+  padding: 5px;
+}
+
+.person-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.person-job {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.person-description {
+  white-space: pre-wrap;
+  line-height: 1.2;
+  padding: 20px;
+}
+
+.person-percentage {
+  font-size: 50px;
+  font-weight: bold;
+  color: #555;
+  margin-top: 20px;
+}
+
+.person-text {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.product-used {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.person-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.person-product {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

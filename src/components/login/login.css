@@ -1,0 +1,91 @@
+.login-page {
+  display: flex;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.login-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.login-image {
+  height: 220px;
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+}
+
+.login-heading {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px;
+  margin: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  margin: 15px;
+  background-color: #878585;
+  border: 1px solid #ccc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.forgot-password {
+  margin-top: 10px;
+  text-align: center;
+  color: #777;
+}
+
+.login-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/log2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.white-box-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.white-box-para {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.book-appointment-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #5c5555;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.white-box {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  max-width: 600px;
+}

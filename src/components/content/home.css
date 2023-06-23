@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,600&display=swap");
+.content {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+  margin-top: 60px; /* Adjust the margin value to give space below the Navbar */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Montserrat", sans-serif;
+}
+
+.content-text {
+  width: 100%;
+  max-width: 1000px; /* Adjust the maximum width as needed */
+  text-align: center;
+}
+
+.content-heading {
+  font-weight: bold;
+  font-size: 90px;
+  margin-bottom: 10px; /* Add spacing below the heading */
+
+  text-align: center;
+}
+
+.content-bold-text {
+  font-size: 35px;
+  color: #888888;
+  font-weight: lighter;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-form {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  flex: 1; /* Take up remaining space */
+  padding: 8px;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+}
+
+.content-demo-button {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  margin-left: 10px; /* Add margin to create spacing between input and button */
+}
+
+.content-image {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+.content-image img {
+  width: 100%; /* Set the width to 100% */
+  height: auto; /* Maintain the aspect ratio */
+}
+.input-addon:before {
+  content: "Enter your email";
+  color: #cccccc; /* Set the color to light grey */
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  .content-text {
+    text-align: left;
+  }
+
+  .content-image {
+    margin-top: 40px; /* Increase the margin value for more spacing */
+  }
+
+  .content-form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .content-demo-button {
+    margin-left: 0; /* Reset the margin for the button */
+    margin-top: 10px; /* Add margin to create spacing below the input */
+  }
+}
